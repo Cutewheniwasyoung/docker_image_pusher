@@ -9,3 +9,4 @@ python:3.12
 
 alpine
 busybox
+postgres:10.14
