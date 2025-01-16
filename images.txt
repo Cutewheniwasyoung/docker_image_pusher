@@ -1,12 +1,13 @@
-nginx
+#nginx
 #支持私库
-k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
-xhofe/alist:latest
-golang:latest
-python:3.12
+#k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
+#xhofe/alist:latest
+#golang:latest
+#python:3.12
 #支持指定架构
---platform=linux/arm64 xiaoyaliu/alist
+#--platform=linux/arm64 xiaoyaliu/alist
 
-alpine
-busybox
-postgres:10.14
+#alpine
+#busybox
+#postgres:10.14
+docker.io/bitnami/redis:7.4.2-debian-12-r0
