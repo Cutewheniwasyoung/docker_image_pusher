@@ -10,4 +10,5 @@
 #alpine
 #busybox
 #postgres:10.14
-docker.io/bitnami/redis:7.4.2-debian-12-r0
+#docker.io/bitnami/redis:7.4.2-debian-12-r0
+docker.io/bitnami/postgresql:12-debian-12-r34
