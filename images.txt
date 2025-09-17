@@ -12,4 +12,8 @@
 #postgres:10.14
 #docker.io/bitnami/redis:7.4.2-debian-12-r0
 #docker.io/bitnami/postgresql:17.2.0-debian-12-r5
-sequenceiq/hadoop-docker:2.7.1
+#sequenceiq/hadoop-docker:2.7.1
+
+# 20250917
+--platform=linux/amd64 opensearchproject/opensearch:2.19.3
+--platform=linux/amd64 jaegertracing/jaeger-ingester:1.53.0
