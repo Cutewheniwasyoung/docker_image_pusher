@@ -15,5 +15,6 @@
 #sequenceiq/hadoop-docker:2.7.1
 
 # 20250917
---platform=linux/amd64 opensearchproject/opensearch:2.19.3
---platform=linux/amd64 jaegertracing/jaeger-ingester:1.53.0
+#--platform=linux/amd64 opensearchproject/opensearch:2.19.3
+#--platform=linux/amd64 jaegertracing/jaeger-ingester:1.53.0
+--platform=linux/amd64 otel/opentelemetry-collector-contrib:0.131.0
