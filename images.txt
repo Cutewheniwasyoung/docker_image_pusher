@@ -17,4 +17,49 @@
 # 20250917
 #--platform=linux/amd64 opensearchproject/opensearch:2.19.3
 #--platform=linux/amd64 jaegertracing/jaeger-ingester:1.53.0
---platform=linux/amd64 otel/opentelemetry-collector-contrib:0.131.0
+# --platform=linux/amd64 otel/opentelemetry-collector-contrib:0.131.0
+
+# 20250918
+ghcr.io/open-telemetry/opentelemetry-collector-releases/opentelemetry-collector-contrib:0.133.0
+ghcr.io/open-feature/flagd:v0.12.8
+jaegertracing/all-in-one:1.72.0
+opensearchproject/opensearch:3.2.0
+postgres:17.6
+quay.io/prometheus/prometheus:v3.5.0
+valkey/valkey:8.1.3-alpine
+kubeshop/tracetest:v1.7.1
+ghcr.io/open-telemetry/demo:2.0.2-accounting
+ghcr.io/open-telemetry/demo:latest-accounting
+ghcr.io/open-telemetry/demo:2.0.2-ad
+ghcr.io/open-telemetry/demo:latest-ad
+ghcr.io/open-telemetry/demo:2.0.2-cart
+ghcr.io/open-telemetry/demo:latest-cart
+ghcr.io/open-telemetry/demo:2.0.2-checkout
+ghcr.io/open-telemetry/demo:latest-checkout
+ghcr.io/open-telemetry/demo:2.0.2-currency
+ghcr.io/open-telemetry/demo:latest-currency
+ghcr.io/open-telemetry/demo:2.0.2-email
+ghcr.io/open-telemetry/demo:latest-email
+ghcr.io/open-telemetry/demo:latest-flagd-ui
+ghcr.io/open-telemetry/demo:2.0.2-fraud-detection
+ghcr.io/open-telemetry/demo:latest-fraud-detection
+ghcr.io/open-telemetry/demo:2.0.2-frontend
+ghcr.io/open-telemetry/demo:latest-frontend
+ghcr.io/open-telemetry/demo:latest-frontend-proxy
+ghcr.io/open-telemetry/demo:2.0.2-image-provider
+ghcr.io/open-telemetry/demo:latest-image-provider
+ghcr.io/open-telemetry/demo:2.0.2-kafka
+ghcr.io/open-telemetry/demo:latest-kafka
+ghcr.io/open-telemetry/demo:2.0.2-load-generator
+ghcr.io/open-telemetry/demo:latest-load-generator
+ghcr.io/open-telemetry/opentelemetry-collector-releases/opentelemetry-collector-contrib:0.133.0
+ghcr.io/open-telemetry/demo:2.0.2-payment
+ghcr.io/open-telemetry/demo:latest-payment
+ghcr.io/open-telemetry/demo:2.0.2-product-catalog
+ghcr.io/open-telemetry/demo:latest-product-catalog
+ghcr.io/open-telemetry/demo:2.0.2-quote
+ghcr.io/open-telemetry/demo:latest-quote
+ghcr.io/open-telemetry/demo:2.0.2-recommendation
+ghcr.io/open-telemetry/demo:latest-recommendation
+ghcr.io/open-telemetry/demo:2.0.2-shipping
+ghcr.io/open-telemetry/demo:latest-shipping
