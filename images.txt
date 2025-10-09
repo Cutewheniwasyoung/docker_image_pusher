@@ -64,3 +64,5 @@ grafana/grafana:12.1.0
 # ghcr.io/open-telemetry/demo:latest-recommendation
 # ghcr.io/open-telemetry/demo:2.0.2-shipping
 # ghcr.io/open-telemetry/demo:latest-shipping
+
+envoyproxy/envoy:dev
