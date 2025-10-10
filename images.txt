@@ -65,4 +65,5 @@ grafana/grafana:12.1.0
 # ghcr.io/open-telemetry/demo:2.0.2-shipping
 # ghcr.io/open-telemetry/demo:latest-shipping
 
-docker.io/istio/pilot:1.27.1
+# docker.io/istio/pilot:1.27.1
+docker.io/istio/proxyv2:1.27.1
